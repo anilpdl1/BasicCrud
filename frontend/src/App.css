@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+main{
+  height:auto;
+  width:70%;
+  border:2px solid black;
+}
+main h3{
+  height:60px;
+  width:100%;
+  padding:10px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+
+  
+}
+main h3 div{
+  height:100%;
+  width:150px;
+  border:2px solid black;
+  font-size:20px;
+  padding:5px;
+  background:#F0F0DB;
+}
+main h3 div button{
+  all:unset;
+  margin-right:2px;
+}
+
